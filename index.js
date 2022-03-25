@@ -19,7 +19,7 @@ function mondayWork(argument){
     }
 }
 const wrapAdjective = function(argument){
-    if()
+  
 }
 let emphatic = result("a hard worker")
 
