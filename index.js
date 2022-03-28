@@ -18,11 +18,18 @@ function mondayWork(argument){
         return "This Monday, I will work from home."
     }
 }
-const wrapAdjective = function(argument){
-  
-}
-let emphatic = result("a hard worker")
+function wrapAdjective (parameter ){
+   
+    
+    return function(){
+        if (parameter === '*' ){
+            return  "You are *a hard worker*!"}
+        else {
+            return `You are ${parameter}a dedicated programmer${parameter}!`
+        }
+    }
 
+}
 // let result = wrapAdjective('*')
 // let emphatic = result("a hard worker")
 // expect(emphatic).to.equal("You are *a hard worker*!")
